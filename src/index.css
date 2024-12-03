@@ -1,0 +1,63 @@
+/* index.css */
+
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Make sure everything scales well on different screen sizes */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some basic padding for the app */
+#root {
+    padding: 0px;
+    min-height: 100vh;
+}
+
+/* Example class for adding some padding */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Styling links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Add hover effect to links */
+a:hover {
+    color: #007BFF;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #7f0404;
+    border: 1px solid #7f0404;
+}
